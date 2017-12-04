@@ -12,6 +12,11 @@ namespace buildAHouse.Team
         { get; set; }
         public workerType type
         { get; set; }
+        public Worker()
+        {
+            type = workerType.worker;
+            report = new List<string>();
+        }
         public void whatDone(string s)
         {
             report.Add(s);

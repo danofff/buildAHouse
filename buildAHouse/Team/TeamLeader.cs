@@ -14,6 +14,7 @@ namespace buildAHouse.Team
         public TeamLeader()
         {
             type = workerType.teamLeader;
+            report = new List<string>();
         }
         public void whatDone(string s)
         {

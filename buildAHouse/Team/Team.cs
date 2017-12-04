@@ -20,7 +20,6 @@ namespace buildAHouse.Team
                 workers[i]=new Worker();
             }
         }
-
         public void getReport(string s)
         {
             leader.whatDone(s);
