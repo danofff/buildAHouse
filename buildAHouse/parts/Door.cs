@@ -50,6 +50,7 @@ namespace buildAHouse
             Turtle.Move(25);
             Turtle.Turn(90);
             Turtle.Move(50);
+            isDone = true;
         }
     }
 }

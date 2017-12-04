@@ -29,7 +29,7 @@ namespace buildAHouse.Team
             {
                 Console.WriteLine(item);
             }
-            Console.WriteLine("Project finish on{0:f}%", report.Count == 0 ? 0.00: report.Count*100.0/11.0);
+            Console.WriteLine("Project finish on {0:f}%", report.Count == 0 ? 0.00: report.Count*100.0/11.0);
             Console.WriteLine("-----------------------");
         }
     }
