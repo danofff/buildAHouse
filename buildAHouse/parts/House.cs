@@ -32,16 +32,5 @@ namespace buildAHouse
                 windows[i] = new Window();
             }
         }
-        public void buildHouse()
-        {
-           
-            roof.build();
-            windows[0].build();
-            windows[1].build();
-            windows[2].build();
-            windows[3].build();
-            door.build();
-
-        }
     }
 }

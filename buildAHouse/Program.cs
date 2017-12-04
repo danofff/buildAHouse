@@ -10,8 +10,8 @@ namespace buildAHouse
     {
         static void Main(string[] args)
         {
-            House h = new House();
-            h.buildHouse();
+            BuildProcess process = new BuildProcess();
+            process.startBuild();
         }
     }
 }
